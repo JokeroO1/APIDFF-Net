@@ -9,3 +9,8 @@ APIDFF-Net: Adaptive Learning Point Cloud and Image Diversity Feature Fusion Net
 ## Network
 The overall network architecture.
 ![image](img/1.jpg)
+
+## Visualization
+The overall network architecture.
+![image](img/2.jpg)
+
