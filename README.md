@@ -14,7 +14,7 @@ The overall network architecture.
 ![image](img/2.jpg)
 
 ## Pretrained model
-You could download the pretrained model(Car) of APIDFF-Net from https://pan.baidu.com/s/1pBl12P7H6GKj_mnewzxmJw，which is trained on the *train* split (3712 samples) and evaluated on the *val* split (3769 samples) and *test* split (7518 samples). The verification set results are located below, and we will place the test set results on the online drive. Anyone can evaluate them through the official KITTI.
+You could download the pretrained model(Car) of APIDFF-Net from https://pan.baidu.com/s/1pBl12P7H6GKj_mnewzxmJw， which is trained on the *train* split (3712 samples) and evaluated on the *val* split (3769 samples) and *test* split (7518 samples). The verification set results are located below, and we will place the test set results on the online drive. Anyone can evaluate them through the official KITTI.
 ```
 bbox AP:96.3399, 93.9368, 92.0453
 bev  AP:95.7859, 88.9924, 88.7231
