@@ -21,3 +21,14 @@ bev  AP:95.7859, 88.9924, 88.7231
 3d   AP:92.4268, 82.9832, 80.4240
 aos  AP:96.26, 93.49, 91.39
 ```
+
+```
+@InProceedings{Shi_2019_CVPR,
+    author = {Shi, Shaoshuai and Wang, Xiaogang and Li, Hongsheng},
+    title = {PointRCNN: 3D Object Proposal Generation and Detection From Point Cloud},
+    booktitle = {The IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
+    month = {June},
+    year = {2019}
+}
+```
+
