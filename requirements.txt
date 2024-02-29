@@ -1,0 +1,15 @@
+opencv-python
+shapely
+Cython
+scipy
+pandas
+pyyaml
+json_tricks
+scikit-image
+yacs>=0.1.5
+tensorboardX>=1.6
+tqdm
+ninja
+fire
+numba
+easydict
