@@ -1,5 +1,5 @@
 # APIDFF-Net
-APIDFF-Net: Adaptive Learning Point Cloud and Image Diversity Feature Fusion Network for 3D Object Detection.
+APIDFF-Net: Adaptive Learning Point Cloud and Image Diversity Feature Fusion Network for 3D Object Detection(Complex & Intelligent Systems 2023).
 Paper is now available in [APIDFF-Net](https://link.springer.com/content/pdf/10.1007/s40747-023-01295-x.pdf).
 
 
@@ -12,6 +12,12 @@ The overall network architecture.
 
 ## Visualization
 ![image](img/2.png)
+
+## Implementation
+### Training
+```shell
+CUDA_VISIBLE_DEVICES=0 python train_rcnn.py --cfg_file cfgs/LI_Fusion_with_attention_use_ce_loss.yaml --batch_size 2 --train_mode rcnn_online --epochs 50 --ckpt_save_interval 1 --output_dir ./log/Car/full_epnet_without_iou_branch/   --set LI_FUSION.ENABLED True LI_FUSION.ADD_Image_Attention True RCNN.POOL_EXTRA_WIDTH 0.2 RPN.SCORE_THRESH 0.2 RCNN.SCORE_THRESH 0.2  USE_IOU_BRANCH False TRAIN.CE_WEIGHT 5.0
+```
 
 ## Pretrained model
 You could download the pretrained model(Car) of APIDFF-Net from [APIDFF-Net](https://pan.baidu.com/s/1RY6nkQ6bUBUofsStHx3ZGQ?pwd=urry) which is trained on the *train* split (3712 samples) and evaluated on the *val* split (3769 samples) and *test* split (7518 samples). The verification set results are located below, and we will place the test set results on the online drive. Anyone can evaluate them through the official KITTI.
