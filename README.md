@@ -8,10 +8,10 @@ APIDFF-Net: Adaptive Learning Point Cloud and Image Diversity Feature Fusion Net
 
 ## Network
 The overall network architecture.
-![image](img/1.jpg)
+![image](img/1.png)
 
 ## Visualization
-![image](img/2.jpg)
+![image](img/2.png)
 
 ## Pretrained model
 You could download the pretrained model(Car) of APIDFF-Net from [APIDFF-Net](https://pan.baidu.com/s/1RY6nkQ6bUBUofsStHx3ZGQ?pwd=urry) which is trained on the *train* split (3712 samples) and evaluated on the *val* split (3769 samples) and *test* split (7518 samples). The verification set results are located below, and we will place the test set results on the online drive. Anyone can evaluate them through the official KITTI.
